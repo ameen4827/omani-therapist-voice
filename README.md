@@ -4,17 +4,22 @@
 
 ---
 
+
 ## 🎯 Features
 
 - 🎤 Real-time **voice input** or uploaded `.wav` files
+  ![1](https://github.com/user-attachments/assets/9a29ab03-f092-4ab4-8497-4576475b6eea)
 - 🧠 **Crisis detection** (e.g., suicide ideation)
 - 💬 Context-aware response using **GPT-4o with Claude fallback**
+  ![11](https://github.com/user-attachments/assets/10ceedf8-99d7-4227-81c6-d4123e2cca82)
+
 - 🕌 **Islamic spiritual guidance** (Quran, dua, and advice)
 - 🔁 Dynamic crawl of WHO & Omani health ministry mental health resources
 - 🔊 Synthesized therapist response via Google TTS / Coqui TTS
 - 🧪 Testing scripts for all mental health scenarios
 
 ---
+
 
 ## 🛠️ Installation & Setup
 
