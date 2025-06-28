@@ -63,7 +63,7 @@ Before running the app, you must export your OpenRouter API key to authenticate 
 
 export OPENROUTER_API_KEY= <OPENROUTER_API_KEY>
 
-export OPENROUTER_API_KEY="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"
+
 
 4) Run the App
 streamlit run app.py
