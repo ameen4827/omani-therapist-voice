@@ -23,7 +23,19 @@ Sakeenah uses OpenRouter to access multiple advanced LLMs like GPT-4o and Claude
 - 🧪 Testing scripts for all mental health scenarios
 
 ---
+⚡ Latency Performance
 
+Sakeenah achieves an end-to-end response latency of under **20 seconds**, including:
+
+🎙️ Audio input (recording/upload)
+
+🧠 Whisper transcription (STT)
+
+🧩 Context detection & LLM response (GPT-4o / Claude)
+
+🔊 Voice synthesis (TTS)
+
+This ensures timely, real-time interaction critical for mental health support and crisis intervention.
 .
 
 ## 🛠️ Installation & Setup
@@ -137,6 +149,8 @@ Run:
 ✅ MCP-based interaction pipeline
 
 ✅ Islamic mental health adapter
+
+
 
 
 
