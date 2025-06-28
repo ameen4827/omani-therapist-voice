@@ -41,6 +41,11 @@ pip install -r requirements.txt
 Model	-> Purpose	-> Download Location
 Whisper (base) ->	Speech-to-text ->	~/.cache/whisper
 
+3) Set OpenRouter API Key
+Before running the app, you must export your OpenRouter API key to authenticate GPT/Claude models:
+
+export OPENROUTER_API_KEY= <OPENROUTER_API_KEY>
+
 4) Run the App
 streamlit run app.py
 
@@ -87,8 +92,7 @@ Run:
         🕌 Islamic Topic: القلق والتوتر
         📖 Quran:
           → ﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾ - الرعد: 28
-        🤲 Dua:
-          - اللهم إني أعوذ بك من الهم والحزن، والعجز والكسل...
+        🤲 Dua:- اللهم إني أعوذ بك من الهم والحزن، والعجز والكسل...
         📘 Advice: القلق من الابتلاءات أمر طبيعي. تذكر أن الله مع الصابرين، وأن كل ضيق يعقبه فرج.
         
         ---
@@ -131,17 +135,8 @@ Run:
 ✅ Islamic mental health adapter
 
 
-🙏 Acknowledgments
-    OpenRouter.ai
-    
-    Whisper by OpenAI
-    
-    Coqui TTS
-    
-    WHO EMRO
 
-🧠 License
-   For academic, research, and non-commercial use only.
 
-🤝 Contributors
-   Made with ❤️ for mental well-being by Ameen
+   
+
+
