@@ -36,7 +36,8 @@ Sakeenah achieves an end-to-end response latency of under **20 seconds**, includ
 🔊 Voice synthesis (TTS)
 
 This ensures timely, real-time interaction critical for mental health support and crisis intervention.
-.
+
+
 
 ## 🛠️ Installation & Setup
 ```bash
@@ -62,6 +63,8 @@ Before running the app, you must export your OpenRouter API key to authenticate 
 
 export OPENROUTER_API_KEY= <OPENROUTER_API_KEY>
 
+export OPENROUTER_API_KEY="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"
+
 4) Run the App
 streamlit run app.py
 
@@ -82,7 +85,8 @@ streamlit run app.py
         
         Code-switch: "I'm tired من كل شيء"
 6) Testing
-Run:
+   ### 🧪 Test Cases https://github.com/ameen4827/omani-therapist-voice/tree/main/tests/cases
+   Run:
     1. To check context adapter 
 
        python test_context_adapter.py
