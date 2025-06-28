@@ -1,14 +1,18 @@
 # 🧠 Sakeenah: Omani Therapist Voice Assistant
 
-**Sakeenah** is a culturally sensitive, voice-based AI assistant that offers real-time mental health support in Arabic and English. It integrates Islamic coping strategies, cognitive behavioral therapy (CBT) insights, and modern LLMs (like GPT-4o and Claude 3.5) using the **Model-Context Protocol (MCP)** to guide interactions.
+**Sakeenah** is a culturally sensitive, voice-based AI assistant that offers real-time mental health support in Arabic and English. It integrates Islamic coping strategies, cognitive behavioral therapy (CBT) insights, and modern LLMs (like GPT-4o and Claude Opus 4) using the **Model-Context Protocol (MCP)** to guide interactions.
+
 
 ---
 
+🔑 OpenRouter Integration
 
+Sakeenah uses OpenRouter to access multiple advanced LLMs like GPT-4o and Claude Opus 4 through a unified API. This enables a robust fallback mechanism—if one model fails or is slow, another responds seamlessly. OpenRouter simplifies multi-LLM access, enhances reliability, and supports secure, usage-based billing across top AI providers
 ## 🎯 Features
 
-- 🎤 Real-time **voice input** or uploaded `.wav` files
-  ![1](https://github.com/user-attachments/assets/9a29ab03-f092-4ab4-8497-4576475b6eea)
+- 🗣️ Synthetic Data Generator (**Omani Dialect**)
+    A custom script uses Google TTS (gTTS) to generate natural-sounding Arabic audio in the Omani dialect. It covers all key mental health scenarios (e.g., crisis, stress, family issues) to simulate real user      input for testing the full voice pipeline. This ensures consistent evaluation without needing live recordings.
+- 🎤 Real-time **voice input** or uploaded `.wav` files   
 - 🧠 **Crisis detection** (e.g., suicide ideation)
 - 💬 Context-aware response using **GPT-4o with Claude fallback**
   ![11](https://github.com/user-attachments/assets/10ceedf8-99d7-4227-81c6-d4123e2cca82)
@@ -20,16 +24,16 @@
 
 ---
 
+.
 
 ## 🛠️ Installation & Setup
-
-1️) Clone Repository
-
 ```bash
+1️) Clone Repository
 git clone https://github.com/ameen4827/omani-therapist-voice.git
 cd omani-therapist-voice
 
 2) Create Conda Environment
+
 conda create -n omani-therapist-voice python=3.10 -y
 conda activate omani-therapist-voice
 
