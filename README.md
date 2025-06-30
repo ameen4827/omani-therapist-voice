@@ -11,16 +11,18 @@ Sakeenah uses OpenRouter to access multiple advanced LLMs like GPT-4o and Claude
 ## 🎯 Features
 
 - 🗣️ Synthetic Data Generator (**Omani Dialect**)
-    A custom script uses Google TTS (gTTS) to generate natural-sounding Arabic audio in the Omani dialect. It covers all key mental health scenarios (e.g., crisis, stress, family issues) to simulate real user      input for testing the full voice pipeline. This ensures consistent evaluation without needing live recordings.
+    A custom script uses Google TTS (gTTS) to generate natural-sounding Arabic audio in the Omani dialect. It covers all key mental health scenarios (e.g., crisis, stress, family issues) to simulate real user      input for testing the full voice pipeline. This ensures consistent evaluation without needing live recordings. (https://github.com/ameen4827/omani-therapist-voice/tree/main/keyword_test_wavs)
 - 🎤 Real-time **voice input** or uploaded `.wav` files   
 - 🧠 **Crisis detection** (e.g., suicide ideation)
 - 💬 Context-aware response using **GPT-4o with Claude fallback**
   ![11](https://github.com/user-attachments/assets/10ceedf8-99d7-4227-81c6-d4123e2cca82)
+  ![Screenshot from 2025-06-30 16-11-44](https://github.com/user-attachments/assets/a223b363-eee7-44ca-9595-90641c619024)
+
 
 - 🕌 **Islamic spiritual guidance** (Quran, dua, and advice)
 - 🔁 Dynamic crawl of WHO & Omani health ministry mental health resources
-- 🔊 Synthesized therapist response via Google TTS / Coqui TTS
-- 🧪 Testing scripts for all mental health scenarios
+- 🔊 Synthesized therapist response via Google TTS / Coqui TTS in Natural-sounding Omani Arabic voice synthesis (https://github.com/ameen4827/omani-therapist-voice/tree/main/tts_outputs)
+- 🧪 Testing scripts for all mental health scenarios (https://github.com/ameen4827/omani-therapist-voice/blob/main/tests/reports/Test%20Report%20-Omani%20Therapist%20Voice%20Assistant.pdf)
 
 ---
 ⚡ Latency Performance
@@ -85,7 +87,7 @@ streamlit run app.py
         
         Code-switch: "I'm tired من كل شيء"
 6) Testing
-   ### 🧪 Test Cases https://github.com/ameen4827/omani-therapist-voice/tree/main/tests/cases
+   🧪 Test Cases Resuts: (https://github.com/ameen4827/omani-therapist-voice/tree/main/tests/cases)
    Run:
     1. To check context adapter 
 
